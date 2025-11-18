@@ -1,0 +1,32 @@
+# --- Python Basics ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments (بيئات العمل الوهمية) ---
+# سيقوم بتجاهل المجلد مهما كان اسمه الشائع
+venv/
+env/
+.venv/
+.env/
+venv.bak/
+
+# --- Environment Variables (هام جداً للأمان) ---
+# هذا يمنع رفع مفاتيح الـ API الخاصة بالشات بوت
+.env
+.env.local
+.env.*
+
+# --- Database (قواعد البيانات المحلية) ---
+*.sqlite3
+*.db
+
+# --- VS Code Settings (إعدادات البرنامج الخاصة بجهازك) ---
+.vscode/
+
+# --- Logs (سجلات الأخطاء) ---
+*.log
+
+# --- OS Junk Files (ملفات النظام المؤقتة) ---
+.DS_Store
+Thumbs.db
